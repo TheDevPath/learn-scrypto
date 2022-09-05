@@ -105,6 +105,10 @@ Make sure that you are in the tutorial directory and run
 
 `resim publish .`
 
+Once again let's store the package address in a variable
+
+`export package=<package_address_returned_by_resim_publish>`
+
 ### Instantiate a Component from the blueprint - STEP 5
 
 We can instantiate our Hello component using the simulator to call the instantiate_hello function from our blueprint.
