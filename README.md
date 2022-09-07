@@ -82,8 +82,10 @@ export privkey=f7d6ff476d2da934343b24def7ef64e7b70c61c9199c9d43ced7bd486703d748
 
 or
 
+> **_NOTE!_** Windows Users the command to save is different
+
 ```
-# Using the PowerShell
+# Using PowerShell
 $account="account_sim1q0r85g5hyuudv57jeyqrts2u5py6mkr8tzccc8vm0hsq6pkemt"
 $pubkey="0217161655220fa4f68fb78584b87cc8fda2c2332a5eb25ce65b21cbc2fc6b529a"
 $privkey="f7d6ff476d2da934343b24def7ef64e7b70c61c9199c9d43ced7bd486703d748"
@@ -138,11 +140,11 @@ New Entities: 2
 └─ Resource: resource_sim1qqc3ux4mxuh8y8a5whfsqfmfcpxmun63msrdgvkhpqdqkqv76m
 ```
 
-Once again let's save out component address to a variable
+Once again let's save our component address to a variable
 
 `export component=<component_address_returned_by_resim_call_function>`
 
-### Grand Finally Let's get our free Hello Token - STEP 6
+### Grand Finale Let's get our free Hello Token - STEP 6
 
 We are now going to use the simulator to call our free_token method which will pull 1 token from the vault and put it into our user account
 
