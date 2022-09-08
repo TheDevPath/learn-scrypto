@@ -109,7 +109,13 @@ Make sure that you are in the tutorial directory and run
 
 Once again let's store the package address in a variable
 
+> Using Terminal
+
 `export package=<package_address_returned_by_resim_publish>`
+
+> Using PowerShell
+
+`$package="<package_address_returned_by_resim_publish>"`
 
 ### Instantiate a Component from the blueprint - STEP 5
 
@@ -142,7 +148,13 @@ New Entities: 2
 
 Once again let's save our component address to a variable
 
+> Using Terminal
+
 `export component=<component_address_returned_by_resim_call_function>`
+
+> Using PowerShell
+
+`$component="<component_address_returned_by_resim_call_function>"`
 
 ### Grand Finale Let's get our free Hello Token - STEP 6
 
